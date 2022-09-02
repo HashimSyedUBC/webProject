@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+@font-face {
+    font-family: "Arabic";
+    src: url("fonts/Arabic.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arabic-2";
+    src: url("fonts/solander.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    filter: brightness(100);
+    text-decoration: none;
+}
+
+.main-nav li {
+    padding: 0 7%;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+
+.main-header {
+    background-color: rgba(252, 195, 96, .6);
+    background-image: url("images/caravan-desert-safari-dune.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.res-name {
+    text-align: center;
+    margin: 0;
+    font-family: "Arabic";
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+
+.res-name-large {
+    font-size: 9em;
+}
+
+.content-section {
+    margin: 1em;
+    padding-bottom: 7em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2 1.5em;
+    
+}
+
+.section-header {
+    text-align: center;
+    font-family: "Arabic-2";
+    font-weight: normal;
+    font-size: 3.5em;
+    color: #333;
+}
+
+.silk-logo {
+    float: left;
+    height: 275px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgba(241, 183, 82, 1);
+    color: white;
+    padding: 0.25em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.btn-header {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid rgba(245, 176, 39, 0.8);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color:  rgba(245, 176, 39, 0.8);
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    margin-left: 1em;
+    margin-top: 0.62em;
+}
+
+.cooking {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid rgba(245, 176, 39, 0.8);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
+    max-width: 300px;
+    padding-top: .5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-right: 0;
+    height: 62px;
+
+}
+
+.container-button {
+    display: flex;
+    max-width: 550px;
+
+}
+
+.food-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+
+.food-row:last-child {
+    border-bottom: none;
+}
+
+.food-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.food-name {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.halal {
+    width: 24%;
+}
+
+.price {
+    width: 42%;
+}
+
+.food-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(241, 183, 82, 1);
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(177, 128, 45);
+}
+
